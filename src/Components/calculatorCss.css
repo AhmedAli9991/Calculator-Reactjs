@@ -1,0 +1,68 @@
+
+.container{
+    margin-top: 80px;
+    text-align: center;
+    width: 306px;
+    border: black solid ;
+    background:black ;
+    padding: 0;
+    border-radius: 5px;
+}
+.result{
+    height: 80px;
+    width: 300px;
+    display: grid;
+
+}
+.buttons{
+    
+    width: 300px;
+    height:300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#clear{
+    grid-column:1/3 ;
+
+}
+#equal{
+    grid-column:3/5 ;
+}
+.Header{
+    margin-top: 50px;
+    height: 500px;
+    background-image: url("../science-calculator.jpg");
+    background-size: cover; 
+    display: flex;
+
+}
+.inside{
+    margin-top: 60px;
+}
+.box{
+margin-top: 30px;
+text-align: left;
+margin-right: 50%;
+}
+.footer{
+margin-top: 50px; 
+text-align: center;
+background: black;
+height: 100%;
+color:darkgrey;
+padding: 10px;
+}
+input{
+    text-align: right;
+}
+.jumbotron{
+    margin-top: 100px ;
+      width: 100% ;
+      background-color: rgb(243, 232, 232);
+       padding: 40px ; 
+    }
+.random{
+    padding: 100 px;
+    margin-left: 25px;
+    margin-top: 40px;
+}
