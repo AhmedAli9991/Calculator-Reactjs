@@ -1,7 +1,5 @@
 # Calculator
 
-this project could be broken down into various projects
-
 ### what i learned
 
 - UseState Hook
